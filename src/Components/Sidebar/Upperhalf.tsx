@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
-import CloudyNight from "../../Assets/CloudyNight.png";
 import { useSelector } from "react-redux";
 import ReduxState from "../../Interfaces/ReduxState";
 import GetDay from "../GetDay";
@@ -69,7 +68,7 @@ function Upperhalf({
 
       <div className='w-full h-[60%] flex justify-center mt-12'>
         {/* image container */}
-        <img src={CloudyNight} className='w-[50%]' />
+        <img src={"/CloudyNight.png"} className='w-[50%]' />
       </div>
 
       <div className='flex flex-col mt-4'>
